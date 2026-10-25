@@ -1,0 +1,51 @@
+{
+  "expo": {
+    "name": "RetroBeats",
+    "slug": "retro-beats",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#1A1B26"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.jiwoo.retrobeats",
+      "buildNumber": "1",
+      "infoPlist": {
+        "NSPhotoLibraryUsageDescription": "RetroBeats needs photo library access to allow you to choose custom album art for your playlists.",
+        "NSCameraUsageDescription": "RetroBeats needs camera access to scan physical CD and vinyl barcodes.",
+        "NSMicrophoneUsageDescription": "RetroBeats needs microphone access to record voice memos and audio samples."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#1A1B26"
+      },
+      "package": "com.jiwoo.retrobeats",
+      "versionCode": 1,
+      "permissions": [
+        "CAMERA",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE",
+        "RECORD_AUDIO"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/icon.png"
+    },
+    "owner": "surprisedcat",
+    "extra": {
+      "eas": {
+        "projectId": "6b10edf7-9bf0-4f5d-9f50-2953684b1bbd"
+      }
+    }
+  }
+}
